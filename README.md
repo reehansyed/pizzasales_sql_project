@@ -153,6 +153,19 @@ ON ORDER_DETAILS.PIZZA_ID=PIZZAS.PIZZA_ID
 GROUP BY PIZZA_TYPES.CATEGORY,PIZZA_TYPES.NAME) AS A) AS B
 WHERE RN <= 3;
 ~~~
+## Steps Taken
+- Data Import: Imported the datasets into SQL Server.
+- Data Cleaning: Ensured the datasets were clean and ready for analysis.
+- SQL Queries: Wrote and executed SQL queries to answer the analysis questions.
+- Insights: Extracted actionable insights from the query results.
+ ## Technologies Used
+- SQL Server: For data storage and analysis.
+- SQL: To write queries for data analysis.
+ ## Key Insights
+- Identified the most popular pizza types and sizes.
+- Analyzed revenue contributions by pizza type and category.
+- Explored order patterns across different times of the day.
+- Determined revenue trends over time.
 
 
 
