@@ -20,7 +20,7 @@ The project utilizes the following datasets:
   SELECT COUNT(ORDER_ID) AS TOTAL_ORDERS FROM ORDERS;
   ~~~
 - ### 2. Calculate the total revenue generated from pizza sales.
-- ~~~ sql
+  ~~~ sql
 SELECT ROUND(SUM(ORDER_DETAILS.QUANTITY * PIZZAS.PRICE),2) AS TOTAL_SALES
 FROM ORDER_DETAILS JOIN PIZZAS
 ON PIZZAS.PIZZA_ID = ORDER_DETAILS.PIZZA_ID;
