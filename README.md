@@ -10,8 +10,7 @@ This project focuses on analyzing pizza sales data using SQL to uncover insights
 - Derive advanced insights, such as top revenue-generating pizza types and cumulative revenue trends, to support strategic decision-making.  
 ## Datasets Used
 The project utilizes the following datasets:
--order_details.csv: Contains detailed information about each order, including pizza type and quantity.
--orders.csv: Includes metadata about orders, such as order ID, date, and time.
--pizza_types.csv: Provides details about different pizza types, including their categories and descriptions.
--pizzas.csv: Contains information about pizza sizes and prices.
-Analysis Questions
+- **`order_details.csv`**: Contains detailed information about each order, including pizza type and quantity.  
+- **`orders.csv`**: Includes metadata about orders, such as order ID, date, and time.  
+- **`pizza_types.csv`**: Provides details about different pizza types, including their categories and descriptions.  
+- **`pizzas.csv`**: Contains information about pizza sizes and prices.  
