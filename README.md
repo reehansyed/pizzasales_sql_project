@@ -20,23 +20,11 @@ The project utilizes the following datasets:
   SELECT COUNT(ORDER_ID) AS TOTAL_ORDERS FROM ORDERS;
   ~~~
 - ### 2. Calculate the total revenue generated from pizza sales.
-  ~~~ sql
+~~~ sql
 SELECT ROUND(SUM(ORDER_DETAILS.QUANTITY * PIZZAS.PRICE),2) AS TOTAL_SALES
 FROM ORDER_DETAILS JOIN PIZZAS
 ON PIZZAS.PIZZA_ID = ORDER_DETAILS.PIZZA_ID; 
 ~~~
 
-3. Identify the highest-priced pizza.
-sql
-Copy code
-SELECT TOP 1 PIZZA_TYPES.NAME,ROUND(PIZZAS.PRICE,2) as price
-FROM PIZZA_TYPES
-JOIN PIZZAS
-ON PIZZAS.PIZZA_TYPE_ID=PIZZA_TYPES.PIZZA_TYPE_ID
-ORDER BY PIZZAS.PRICE DESC;
 
-
-
-Determine the most common pizza size ordered.
-List the top 5 most ordered pizza types along with their quantities.
 
