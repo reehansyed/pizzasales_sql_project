@@ -13,4 +13,14 @@ The project utilizes the following datasets:
 - **`order_details.csv`**: Contains detailed information about each order, including pizza type and quantity.  
 - **`orders.csv`**: Includes metadata about orders, such as order ID, date, and time.  
 - **`pizza_types.csv`**: Provides details about different pizza types, including their categories and descriptions.  
-- **`pizzas.csv`**: Contains information about pizza sizes and prices.  
+- **`pizzas.csv`**: Contains information about pizza sizes and prices.
+- ## Business Problems and Solutions
+- ### 1. Retrieve the total number of orders placed.
+- ~~~ sql
+  SELECT COUNT(ORDER_ID) AS TOTAL_ORDERS FROM ORDERS;
+  ~~~
+Calculate the total revenue generated from pizza sales.
+Identify the highest-priced pizza.
+Determine the most common pizza size ordered.
+List the top 5 most ordered pizza types along with their quantities.
+
