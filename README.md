@@ -15,16 +15,6 @@ The project utilizes the following datasets:
 - **`pizza_types.csv`**: Provides details about different pizza types, including their categories and descriptions.  
 - **`pizzas.csv`**: Contains information about pizza sizes and prices.
 - ## Business Problems and Solutions
-- ### 1. Retrieve the total number of orders placed.
-  ~~~ sql
-  SELECT COUNT(ORDER_ID) AS TOTAL_ORDERS FROM ORDERS;
-  ~~~
-- ### 2. Calculate the total revenue generated from pizza sales.
-~~~ sql
-SELECT ROUND(SUM(ORDER_DETAILS.QUANTITY * PIZZAS.PRICE),2) AS TOTAL_SALES
-FROM ORDER_DETAILS JOIN PIZZAS
-ON PIZZAS.PIZZA_ID = ORDER_DETAILS.PIZZA_ID; 
-~~~
 ### 1. Retrieve the total number of orders placed.
 ~~~ sql
 SELECT COUNT(ORDER_ID) AS TOTAL_ORDERS FROM ORDERS;
