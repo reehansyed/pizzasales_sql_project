@@ -153,11 +153,11 @@ ON ORDER_DETAILS.PIZZA_ID=PIZZAS.PIZZA_ID
 GROUP BY PIZZA_TYPES.CATEGORY,PIZZA_TYPES.NAME) AS A) AS B
 WHERE RN <= 3;
 ~~~
-## Steps Taken
-- Data Import: Imported the datasets into SQL Server.
-- Data Cleaning: Ensured the datasets were clean and ready for analysis.
-- SQL Queries: Wrote and executed SQL queries to answer the analysis questions.
-- Insights: Extracted actionable insights from the query results.
+## 🛠️ Steps Taken
+- Data Import: Loaded the datasets into SQL Server for analysis.
+- Data Cleaning: Performed data cleaning to ensure accuracy and consistency.
+- SQL Querying: Wrote and executed optimized SQL queries to solve key business questions.
+- Insight Generation: Analyzed query results to uncover actionable insights.
  ## Technologies Used
 - SQL Server: For data storage and analysis.
 - SQL: To write queries for data analysis.
